@@ -1,0 +1,11 @@
+.my-body{
+    width: 50%;
+}
+
+.my-produto-box{
+    overflow-x: hidden;
+}
+
+.my-produto-box::-webkit-scrollbar{
+    height: 0.5px;
+}
