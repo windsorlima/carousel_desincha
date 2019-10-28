@@ -1,11 +1,19 @@
-.my-body{
-    width: 50%;
+
+*{
+    
+}
+.my-produto-box {
+    display: flex;
+    min-width: 100%;
+    min-height: 200px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: transparent !important;
+    overflow-x: transparent;
 }
 
-.my-produto-box{
-    overflow-x: hidden;
-}
-
-.my-produto-box::-webkit-scrollbar{
-    height: 0.5px;
+.my-produto-box::-webkit-scrollbar {
+    display: none;
+    background-color: transparent !important;
+    -webkit-transform: translate3d(0,0,0) !important;
 }

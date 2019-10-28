@@ -1,0 +1,29 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #2980b9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.card--content {
+  background-color: #ecf0f1;
+  min-width: 200px;
+  margin: 5px;
+  padding: 5px;
+  color: #34495e
+}
