@@ -1,6 +1,6 @@
 
 *{
-    
+    scrollbar-width: none
 }
 .my-produto-box {
     display: flex;
@@ -8,12 +8,9 @@
     min-height: 200px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    background-color: transparent !important;
-    overflow-x: transparent;
 }
 
 .my-produto-box::-webkit-scrollbar {
     display: none;
-    background-color: transparent !important;
-    -webkit-transform: translate3d(0,0,0) !important;
 }
+
